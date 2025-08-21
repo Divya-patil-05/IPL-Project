@@ -86,6 +86,7 @@ public class TeamRepository {
 		team.setCoachName("Ashish Nehra");
 		team.setQualified(false);
 		team.setnRR(+0.254f);
+		team.setShortName("GT");
 		return team;
 	}
 	public static Team getDelhiCapitalTeamDetails() {
@@ -96,8 +97,11 @@ public class TeamRepository {
 		team.setCoachName("Hemang Badani");
 		team.setQualified(false);
 		team.setnRR(+0.744f);
+		team.setShortName("DC");
 		return team;
 	}
-		
+	 
 	}
+		
+	
 
